@@ -20,13 +20,23 @@
                 <h1>Instagram</h1>
             </a>
             <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Launch demo modal
+                <button type="button" class="btn btn-primary d-flex" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
                 </button>
-
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle d-flex" type="button" id="dropdownMenu2"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        <div class="dropdown-divider"></div>
+                         <li><button class="dropdown-item" type="button">Log out</button></li>         
+                    </ul>
+                </div>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -49,13 +59,15 @@
                 </div>
             </form>
         </nav>
-            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
-                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
-                </li>
-            </ul>
+        <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+
         <div class="tab-content">
             <div id="home" class="tab-pane active">
                 <div class="row">
@@ -65,16 +77,44 @@
                             alt="">
                     </div>
                     <div class="col">
-                        <img class="e46 w-100"
-                        src="https://cdn.wallpapersafari.com/99/79/bXzECf.jpg" alt="">
+                        <img class="e46 w-100" src="https://cdn.wallpapersafari.com/99/79/bXzECf.jpg" alt="">
                     </div>
-                 
+
                     <div class="col">
                         <img class="porsche w-100"
-                        src="https://cimg4.ibsrv.net/gimg/rennlist.com-vbulletin/2000x1333/911s_103_2abf6f2feaa4d5319d6e7ae95a453d2a997dde4a.jpg" 
-                        alt="">
+                            src="https://cimg4.ibsrv.net/gimg/rennlist.com-vbulletin/2000x1333/911s_103_2abf6f2feaa4d5319d6e7ae95a453d2a997dde4a.jpg"
+                            alt="">
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <img class="blueprint w-100"
+                            src="https://training.npr.org/wp-content/uploads/2016/06/dreamstime_l_260891731.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="tool w-100"
+                            src="https://www.metalsucks.net/wp-content/uploads/2017/06/TOOL-Logo-7e66ef2dbc.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="pearl w-100"
+                            src="https://drummersreview.com/wp-content/uploads/2018/05/master_maple_reserve.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img class="r2d2 w-100"
+                        src="https://api.time.com/wp-content/uploads/2017/12/r2d2.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="vegeta w-100"
+                        src="https://i.ytimg.com/vi/5PVSXlgsFTs/maxresdefault.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="eren w-100"
+                        src="https://www.itl.cat/pngfile/big/314-3140524_attack-on-titan.jpg" alt="">
+                    </div>
+                </div>
+
             </div>
             <div id="menu2" class="tab-pane fade">
                 Hola
